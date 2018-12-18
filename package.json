@@ -1,0 +1,33 @@
+{
+  "name": "lambda-web-scrape-example",
+  "version": "1.0.0",
+  "description": "demo lambda app that can scrape job data from Amazon careers page ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddrysdale/lambda-web-scrape-example.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "phantomjs"
+  ],
+  "author": "Dominic Drysdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddrysdale/lambda-web-scrape-example/issues"
+  },
+  "homepage": "https://github.com/ddrysdale/lambda-web-scrape-example#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.1.0",
+    "htmlparser2": "^3.10.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "striptags": "^3.1.1"
+  },
+  "devDependencies": {
+    "claudia": "^5.2.0"
+  },
+  "optionalDependencies": {
+    "aws-sdk": "^2.359.0"
+  }
+}
