@@ -1,4 +1,4 @@
-#Example AWS Lambda web scraper
+# Example AWS Lambda web scraper
  This example implementation I have is an AWS Lambda function using Phantom.js and Cheerio. I’m pulling jobs from the Amazon careers site.
 
 # Deploy
